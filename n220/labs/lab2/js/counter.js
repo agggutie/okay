@@ -4,8 +4,13 @@
 function setup(){
 console.log("Start")
 console.log(frameCount)
+createCanvas(400, 400)
 }
 
 function draw(){
 console.log(frameCount)
+background(30)
+textSize(30)
+fill(200, 100, 20)
+text(frameCount, 180, 175, 200, 200)
 }
