@@ -9,7 +9,7 @@ function draw(){
     // was trying out variables
 
     background(100)
-    circle(x,y, 30)
+    circle(x,y, 50)
     if(x >=width/2){ // when the mouse is on the left half of the y - axis fill blue 
         fill(255,0,0)
     } else { fill(0, 0, 255) // if not fill red 
