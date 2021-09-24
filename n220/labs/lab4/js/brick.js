@@ -4,7 +4,6 @@ let colors = ["#FA94C4","#FFDDBD", "#725349"];
 
 function setup(){
     createCanvas(400,400);
-    
 
 }
 
