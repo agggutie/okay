@@ -1,18 +1,19 @@
-let y = [0,133,266];
-
-let colors = ["#FA94C4","#FFDDBD", "#725349"];
+let bricks = [];
 
 function setup(){
     createCanvas(400,400);
+    for (i = 0; i < 50; i++) {
+      }
+  }
+  
+  function draw(){
+    background(0)
+    for (i = 0; i < bricks.length; i++) {
+        if(mouseIsPressed{
+            let brick = rect(mouseX, mouseY, 20, 50)
+            brick.push[i]
+        })
 
-}
-
-function draw(){
-    background(0);
-
-    for(var i = 0; i < 3; i++){ // adds 1 to the i interger
-        noStroke()
-        fill(colors[i])
-        rect(0, y[i], 400, 133.33)
+        }
     }
-}
+
